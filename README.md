@@ -1,5 +1,5 @@
 # Masterschool Data Analysis Program
-# Capstone Project - Customer Churn Analysis
+## Capstone Project - Customer Churn Analysis
 > This project is to demonstrate many of the skills learned during the Data Analysis program:
 - SQL
 - Tableau
@@ -17,60 +17,43 @@
 - Python
 
 
-## Features
-List the ready features here:
-- Awesome feature 1
-- Awesome feature 2
-- Awesome feature 3
+## Datasets
+Three datasets are provided (full list of attributes are embedded in the Jupyter Notebook):
+- BankChurners.csv: this file contains basic information about each client.
+- Basic_client_info.csv: this file contains some basic client info per each client.
+- Enriched_churn_data.csv: this file contains some enriched data about each client.
+- A full ERD to depict the relationships among attributes and datasets.
 
 
-## Screenshots
-![Example screenshot](./img/screenshot.png)
-<!-- If you have screenshots you'd like to share, include them here. -->
+## SQL Analysis
+Based on the SQL analysis results, the bank intends to create a dedicated campaign and target these specific clients moving forward. This step helps the bank to find these clients. Specifically, the bank needs to get answers from the following questions.
+- How many clients does the bank have and are above the age of 50?
+- What’s the distribution (in %) between male and female clients?
+- Find out these values: Churn_rate (in %), Average Total_Relationship_Count, Minimum value of Total_Amt_Chng_Q4_Q1, Count of customers
+- Out of the male clients, who holds the “blue” card, how many (in %) hold the income category 40K - 60K?
+- Without the usage of group by at all, find the 3rd and 4th highest client IDs (CLIENTNUM’s) of Total_Amt_Chng_Q4_Q1?
+- Which client (CLIENTNUM) has the 2nd highest Total_Trans_Amt, Per each Marital_Status?
 
 
-## Setup
-What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
-
-Proceed to describe how to install / setup one's local environment / get started with the project.
-
-
-## Usage
-How does one go about using it?
-Provide various use cases and code examples here.
-
-`write-your-code-here`
+## Tableau Analysis
+This dashboard helps the bank to identify below trends and patterns through graphical representations. 
+- Multiple KPIs
+- Churn Rate by Credit Limit and Income Category
+- A Scatterplot to compare Total Transaction Amount and Total Transaction Count for Churned and Existing Customers
+- Churn Rate by Number of Products per Customer
+- Churn Rate by Age Groups  
+- Churn Rate by Income Category and Education Level
 
 
-## Project Status
-Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
+## Deep Dive Analysis
+By applying various features of Python, this step execute the tasks to explore the data further to determine if conclusive answers could be discerned.
+- Summary Statistics
+- Data Cleaning
+- Distribution Analysis for each attribute
+- Cross-Correlation Analysis
+- Raising Data Questions
+- Data Enrichment 
 
 
-## Room for Improvement
-Include areas you believe need improvement / could be improved. Also add TODOs for future development.
-
-Room for improvement:
-- Improvement to be done 1
-- Improvement to be done 2
-
-To do:
-- Feature to be added 1
-- Feature to be added 2
-
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- This project was based on [this tutorial](https://www.example.com).
-- Many thanks to...
-
-
-## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+## Recommendations
+Per insights gathered in early analysis, a written description on specific steps the bank's management can take to lessen the customer churn.
