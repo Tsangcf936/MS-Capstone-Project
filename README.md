@@ -39,14 +39,14 @@ Based on the SQL analysis results, the bank intends to create a dedicated campai
 This dashboard helps the bank to identify below trends and patterns through graphical representations. 
 - Multiple KPIs
 - Churn Rate by Credit Limit and Income Category
-- A Scatterplot to compare Total Transaction Amount and Total Transaction Count for Churned and Existing Customers
+- Compare Total Transaction Amount and Total Transaction Count for Churned and Existing Customers
 - Churn Rate by Number of Products per Customer
 - Churn Rate by Age Groups  
 - Churn Rate by Income Category and Education Level
 
 
 ## Deep Dive Analysis
-By applying various features of Python, this step execute the tasks to explore the data further to determine if conclusive answers could be discerned.
+By applying various features of Python, this step executes the following tasks to determine if conclusive answers could be uncovered:
 - Summary Statistics
 - Data Cleaning
 - Distribution Analysis for each attribute
