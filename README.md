@@ -8,7 +8,7 @@
 
 ## Overview
 - This project is based on a bank's credit card data. The bank is concerned that many customers are leaving its card services.
-- The bank would like you to anayze the data for them, so as to figure out why customers are leaving, and to come up with recommendations for how the bank can alleviate the outflow. Lastly, the bank would like to implement these measures so that their customers are happy to stay put.   
+- The bank would like you to analyze the data for them, so as to figure out why customers are leaving, and to come up with recommendations for how the bank can alleviate the outflow. Lastly, the bank would like to implement these measures so that their customers are happy to stay put.   
 
 
 ## Technologies Used
